@@ -346,12 +346,22 @@ article a{
     position: absolute;
     top 80%;
 }*/
-
-  footer{
-    background-color: black;
+.footer{
+    background-color: rgb(2, 2, 2);
+    height: 80px;
+    flex-direction: row;
     display: flex;
+    justify-content: space-around; 
+    bottom: 0;
+    align-items: center;
+    width: 100%;
+    color: white;
+    overflow: hidden;
+    width: auto;
+    margin: 0%;
 
-  }
+}
+  
   
   /***********************************
   *
