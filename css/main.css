@@ -269,7 +269,7 @@ textarea {
 body{
   margin: 0;
   width: 100%;
-  background: linear-gradient(90deg,#d17218,#84470c,black);
+  background: linear-gradient(90deg,#d17218,#84470c,#402206,black);
 }
 
 .picture{
@@ -361,7 +361,7 @@ article a{
 
 /* Contact */
 
-/*.box {
+.box {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -372,10 +372,10 @@ article a{
     box-shadow: 0 15px 25px rgb(255, 145, 0);
     border-radius: 10px;
     background-color: rgb(209, 209, 209);
-  }
+}
   
     
-  .box .user-box input {
+.box .user-box input {
     width: 100%;
     padding: 10px 0;
     font-size: 16px;
@@ -385,10 +385,10 @@ article a{
     border-bottom: 1px solid rgb(255, 255, 255);
     outline: none;
     background: transparent;
-  }
+}
     
   
-  .box form a {
+.box form a {
     position: relative;
     display: inline-block;
     padding: 10px 20px;
@@ -399,9 +399,9 @@ article a{
     overflow: hidden;
     transition: .5s;
     margin-top: 40px;
-  }
+}
     
-  .box a:hover {
+.box a:hover {
     background: rgb(244, 148, 3);
     color: rgb(0, 0, 0);
     border-radius: 5px;
@@ -409,8 +409,8 @@ article a{
                   0 0 25px #000000,
                   0 0 50px #000000,
                   0 0 100px #000000;
-  }
-    
+}
+  
   .box a span {
     position: absolute;
     display: block;
@@ -519,7 +519,7 @@ article a{
   *
   *******************************/
 
- /* .search-box{
+  .search-box{
     position:absolute;
     top:50%;
     left:50%;
