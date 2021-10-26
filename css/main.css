@@ -17,6 +17,10 @@ html {
   line-height: 1.4;
 }
 
+figure{
+  margin:0;
+}
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -266,20 +270,20 @@ textarea {
 *                     Première page accueil
 *
 *************************************************************/
+
 body{
   margin: 0;
-  width: 100%;
-  background: linear-gradient(90deg,#d17218,#84470c,#402206,black);
+  /*background-image: url(../img/banniere.png);*/
+  background-size:100%;
+  /*background: linear-gradient(90deg,#d17218,#84470c,#402206,black);*/
+background-color: black;
 }
 
 .picture{
-  position: relative;
-  min-width: 100%;
-  max-height: 100%;
   margin: 0;
+  padding: 0;
+  border: 0;
   width: 100%;
-  height: auto;
-  top: 0;
   }
 
 header{
@@ -343,11 +347,12 @@ article a{
   margin: 5%;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-/*#twich-embed{
-    position: absolute;
-    top 80%;
-}*/
-.footer{
+.twitch-embed{
+    position : absolute;
+    margin-left: 25%;
+    margin-top: 5%;
+}
+/*.footer{
     background-color: rgb(2, 2, 2);
     height: 80px;
     flex-direction: row;
@@ -362,7 +367,7 @@ article a{
     margin: 0%;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
-}
+}*/
   
   
   /***********************************
