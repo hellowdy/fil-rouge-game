@@ -3,11 +3,13 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    <Maxime> -- <Product owner> 
+    <Manuel> -- <Scrum Master>
+    <Elodie> -- <Développeur>
 
 # THANKS
 
-    <name>
+    Merci à tous le groupe de Simplon de nous avoir soutenu et aidé lors de ce projet.
 
 # TECHNOLOGY COLOPHON
 
