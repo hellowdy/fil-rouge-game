@@ -61,7 +61,7 @@ canvas,
 iframe,
 img,
 svg,
-video {
+.video {
   vertical-align: middle;
 }
 
@@ -341,6 +341,7 @@ article a{
 .litleBoxou{
   border: solid black;
   margin: 5%;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 /*#twich-embed{
     position: absolute;
@@ -590,3 +591,7 @@ form:hover .fa{
   color: rgb(237, 158, 4);
 }
 
+.stream {
+  display: flex;
+  justify-content: center;
+}
