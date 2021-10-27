@@ -4,12 +4,14 @@
     background-size:100%;
     /*background: linear-gradient(90deg,#d17218,#84470c,#402206,black);*/
   background-color: black;
-  }
+}  
   .twitch-embed{
-    position : absolute;
-    margin-left: 25%;
-    margin-top: 5%;
-}
+      position : absolute;
+      margin-left: 20%;
+      margin-top: 5%;
+      display: flex;
+      padding-right: 5%;
+    }
 figure{
     margin:0;
     .piture{
@@ -19,9 +21,21 @@ figure{
         width: 100%;
     }
   }
-
-  .litleBoxou{
-    border: solid black;
-    margin: 5%;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  }
+  .DevilBox{
+    display:flex;
+    flex-direction: row;
+    /*justify-content: space-around;*/
+        
+  
+    .litleBoxou{
+        position: absolute;
+        background-color: white;
+        border: solid white;
+        margin: 5%;
+        width: 15%;
+        margin-left: 55%;
+        margin-top: 10%;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      }
+}
+  
