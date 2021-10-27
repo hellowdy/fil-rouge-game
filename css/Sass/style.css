@@ -135,4 +135,10 @@ figure .piture {
   border: 0;
   width: 100%;
 }
+
+.litleBoxou {
+  border: solid black;
+  margin: 5%;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
 /*# sourceMappingURL=style.css.map */
