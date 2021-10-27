@@ -87,9 +87,9 @@ header nav .superBox .boxy {
           justify-content: space-evenly;
 }
 
-.footer {
-  background-color: #020202;
-  height: 80px;
+footer {
+  background-color: #6D3701;
+  height: 140px;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
@@ -109,6 +109,25 @@ header nav .superBox .boxy {
   width: auto;
   margin: 0%;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.footer {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background-color: black;
+  height: 35%;
 }
 
 body {
@@ -140,5 +159,83 @@ figure .piture {
   border: solid black;
   margin: 5%;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  padding: 40px;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0 15px 25px #ff9100;
+          box-shadow: 0 15px 25px #ff9100;
+  border-radius: 10px;
+  background-color: #d1d1d1;
+}
+
+.box .user-box input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: white;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid white;
+  outline: none;
+  background: transparent;
+}
+
+.box form a {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  color: black;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  -webkit-transition: .5s;
+  transition: .5s;
+  margin-top: 40px;
+}
+
+.box form a a:hover {
+  background: #f49403;
+  color: black;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 5px #000000, 0 0 25px #000000, 0 0 50px #000000, 0 0 100px #000000;
+          box-shadow: 0 0 5px #000000, 0 0 25px #000000, 0 0 50px #000000, 0 0 100px #000000;
+}
+
+.box form a a:hover a span {
+  position: absolute;
+  display: block;
+}
+
+.box form a a:hover a span span:nth-child(1) {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: -webkit-gradient(linear, left top, right top, from(transparent), to(#ffa600));
+  background: linear-gradient(90deg, transparent, #ffa600);
+  -webkit-animation: btn-anim1 3s linear infinite;
+          animation: btn-anim1 3s linear infinite;
+}
+
+.dress {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding-bottom: 10%;
+  background-color: black;
 }
 /*# sourceMappingURL=style.css.map */
