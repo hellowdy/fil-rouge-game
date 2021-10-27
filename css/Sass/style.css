@@ -110,4 +110,29 @@ header nav .superBox .boxy {
   margin: 0%;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
+body {
+  margin: 0;
+  /*background-image: url(../img/banniere.png);*/
+  background-size: 100%;
+  /*background: linear-gradient(90deg,#d17218,#84470c,#402206,black);*/
+  background-color: black;
+}
+
+.twitch-embed {
+  position: absolute;
+  margin-left: 25%;
+  margin-top: 5%;
+}
+
+figure {
+  margin: 0;
+}
+
+figure .piture {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  width: 100%;
+}
 /*# sourceMappingURL=style.css.map */
