@@ -280,7 +280,7 @@ figure .piture {
   top: 30%;
   background-color: black;
   width: 50%;
-  margin-left: 10%;
+  margin-left: 8%;
   height: 50%;
   border: #eb7600 solid;
 }
@@ -314,13 +314,4 @@ figure .piture {
   left: 55%;
   width: 30%;
 }
-
-/*.goodies{
-    display: grid;
-    position: absolute;
-    top: 15%;
-    margin-left: 10%;
-    border: red solid;
-
-}*/
 /*# sourceMappingURL=style.css.map */
