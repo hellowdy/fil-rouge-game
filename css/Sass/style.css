@@ -247,6 +247,16 @@ figure .piture {
           animation: btn-anim1 3s linear infinite;
 }
 
+.top {
+  display: -ms-grid;
+  display: grid;
+  position: absolute;
+  top: 28%;
+  margin-left: 20%;
+  overflow-y: scroll;
+  height: 50%;
+}
+
 .dress {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -257,5 +267,7 @@ figure .piture {
           flex-direction: row;
   padding-bottom: 10%;
   background-color: black;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 /*# sourceMappingURL=style.css.map */
