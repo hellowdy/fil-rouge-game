@@ -136,6 +136,7 @@ body {
   background-size: 100%;
   /*background: linear-gradient(90deg,#d17218,#84470c,#402206,black);*/
   background-color: black;
+  /*font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;*/
 }
 
 .twitch-embed {
@@ -270,4 +271,56 @@ figure .piture {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
+
+.article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 30%;
+  background-color: black;
+  width: 50%;
+  margin-left: 10%;
+  height: 50%;
+  border: #eb7600 solid;
+}
+
+.article h1 {
+  color: white;
+  text-align: center;
+  letter-spacing: 2px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.article p {
+  color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 2px;
+}
+
+.article label {
+  color: white;
+  margin: 2%;
+}
+
+.article select {
+  margin: 5%;
+  width: 20%;
+}
+
+.article button {
+  position: absolute;
+  top: 75%;
+  left: 55%;
+  width: 30%;
+}
+
+/*.goodies{
+    display: grid;
+    position: absolute;
+    top: 15%;
+    margin-left: 10%;
+    border: red solid;
+
+}*/
 /*# sourceMappingURL=style.css.map */
